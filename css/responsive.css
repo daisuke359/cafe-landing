@@ -65,12 +65,19 @@
         margin-bottom: 10px;
     }
 
-    .location_center {
-        flex: 1;
+    .welcome_icons {
+        width: 25%;
     }
 
-    .location_img_container img {
-        filter: brightness(50%);
+    .location_center {
+        flex: 1;
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/cafe_girl.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .location_img_container {
+        display: none;
     }
 
     .footer_wrapper {
