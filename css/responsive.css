@@ -31,7 +31,7 @@
     }
     
     .welcome_container {
-        width: 90%;
+        width: 85%;
         padding: 50px 0;
     }
 
@@ -59,6 +59,7 @@
 @media only screen and (max-width: 480px) {      
 
     .welcome_desc {
+        font-size: 1.1em;
         display: block;
         text-align: left;
         margin-bottom: 10px;

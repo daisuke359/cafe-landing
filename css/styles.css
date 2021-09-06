@@ -5,6 +5,10 @@
     font-family: 'Crimson Text', serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*    HEADER    */
 
 header {
@@ -284,4 +288,13 @@ footer {
 
 .footer_item {
     padding: 5px 0;
+    cursor: pointer;
+}
+
+.footer_item a {
+    color: white;
+}
+
+.footer_item a:hover {
+    color: lightgray;
 }
