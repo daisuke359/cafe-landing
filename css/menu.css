@@ -1,0 +1,55 @@
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../assets/menu.jpg');
+}
+
+.header_title {
+    font-size: 3.2em;
+}
+
+.menu_wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.menu_drink, .menu_breakfast, .menu_brunch {
+    margin-bottom: 100px;
+}
+
+.menu_heading {
+    font-size: 3em;
+    margin-bottom: 100px;
+}
+
+.menu_item {
+    display: flex;
+    font-size: 1.3em;
+    margin-bottom: 35px;
+}
+
+.menu_name {
+    flex: 0.4;
+    font-weight: bold;
+}
+
+.menu_price {
+    flex: 0.6;
+    font-weight: lighter;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .menu_heading {
+        font-size: 3em;
+        margin-bottom: 70px;
+    }
+
+    .menu_item {
+        flex-direction: column;
+        font-size: 1.2em;
+        margin-bottom: 25px;
+    }
+}
+
