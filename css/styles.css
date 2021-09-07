@@ -9,6 +9,24 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 2px solid black;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
 /*    HEADER    */
 
 header {
@@ -235,23 +253,6 @@ header {
 .online_desc {
     font-size: 1.2em;
     margin-bottom: 30px;
-}
-
-.online_btn {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    border: 2px solid black;
-    transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-}
-
-.online_btn:hover {
-    background-color: black;
-    color: white;
 }
 
 .online_left {

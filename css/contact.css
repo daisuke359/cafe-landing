@@ -1,0 +1,80 @@
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../assets/contact.jpg');
+}
+
+.header_title {
+    font-size: 3.2em;
+}
+
+.contact_wrapper {
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.contact_title {
+    font-size: 1.6em;
+}
+
+.contact_wrapper hr {
+    width: 10%;
+    border: 2px solid #A0552C;
+    margin: 20px auto 50px;
+}
+
+.contact_info {
+    font-size: 1.2em;
+}
+
+.contact_email {
+    color: #A0552C;
+    text-decoration: underline;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 40px auto 0;
+}
+
+.contact_input, .contact_message {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.contact_input:focus, .contact_message:focus {
+    outline: none;
+}
+
+.contact_btn {
+    font-size: 1.2em;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .contact_form {
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .welcome_icons {
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact_form {
+        width: 100%;
+    }
+}
