@@ -1,0 +1,99 @@
+header {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../assets/location.jpg');
+}
+
+.header_title {
+    font-size: 3.2em;
+}
+
+.location_wrapper {
+    margin: 80px 0;
+    display: flex;
+}
+
+.location_left, .location_right {
+    flex: 0.5;
+}
+
+.location_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.location_address {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.hours {
+    font-size: 1.4em;
+}
+
+.hours_title {
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.hours_time {
+    margin-bottom: 30px;
+}
+
+
+
+.location_map {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.location_map > iframe {
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .location_address {
+        font-size: 1.3em;
+    }
+
+    .hours {
+        font-size: 1.2em;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .location_wrapper {
+        flex-direction: column-reverse;
+        margin: 100px 0;
+    }
+
+    .location_right {
+        margin-bottom: 40px;
+    }
+
+    .location_address {
+        margin-bottom: 40px;
+    }
+
+    .location_map {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .location_address {
+        font-size: 1.2em;
+    }
+
+    .hours {
+        font-size: 1em;
+    }
+
+    .location_map {
+        width: 80%;
+    }
+}
