@@ -1,6 +1,6 @@
 # cafe-landing
 
-This is a website for a cafe that I made up. It is fully responsive using media query and flexbox.
+This is a website for a cafe that I made up. It is fully responsive utilizing media query and flexbox.
 
 ## Website 
 
